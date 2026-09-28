@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NULL — Digital Authenticity Certificate</title>
+
+  <!-- Favicon / Logo -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⬛</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Audio Source -->
+  <audio id="bg-music" src="null-ambient.mp3" loop preload="auto"></audio>
+
+  <!-- 0. EXPERIENCE ENTRY GATEWAY (Ensures Autoplay Works) -->
+  <div id="entry-overlay" class="entry-gateway active">
+    <div class="gateway-content">
+      <div class="gateway-logo">NULL</div>
+      <div class="gateway-sub">DEFINED BY NOTHING</div>
+      <p class="gateway-desc">AUTHENTICITY VERIFICATION LEDGER DROP 01</p>
+      <button id="enter-btn" class="gateway-btn">
+        <span>ENTER EXPERIENCE</span>
+        <div class="btn-glow"></div>
+      </button>
+    </div>
+  </div>
+
+  <!-- Ambient Glow Background Canvas -->
+  <div class="cyber-bg-glow"></div>
+  <div class="cyber-grid"></div>
+  <div class="laser-scanner"></div>
+
+  <!-- Top Fixed Floating Navigation -->
+  <header class="top-nav">
+    <div class="brand-brandmark">
+      <span class="logo-mini">NULL</span>
+      <span class="version-tag">VERIFIED LEDGER v1.0</span>
+    </div>
+
+    <a href="https://null.lk" target="_blank" class="official-store-btn">
+      <span class="pulse-dot"></span>
+      OFFICIAL STORE &rarr;
+    </a>
+
+    <!-- Floating Audio Control Button -->
+    <button id="music-toggle-btn" class="floating-audio-btn" aria-label="Audio Control">
+      <div class="sound-wave">
+        <span></span><span></span><span></span>
+      </div>
+      <span id="music-text">AUDIO ON</span>
+    </button>
+  </header>
+
+  <!-- MAIN EXPERIENCE CONTAINER -->
+  <main class="main-container">
+    
+    <!-- Top Identity Branding -->
+    <div class="certificate-header">
+      <h1 class="null-title">NULL</h1>
+      <p class="null-tagline">DEFINED BY NOTHING // URBAN APPAREL CO.</p>
+    </div>
+
+    <!-- MAIN CERTIFICATE FRAME -->
+    <div class="certificate-card">
+      <div class="corner-hud top-left"></div>
+      <div class="corner-hud top-right"></div>
+      <div class="corner-hud bottom-left"></div>
+      <div class="corner-hud bottom-right"></div>
+
+      <!-- Status Header -->
+      <div class="status-bar">
+        <div class="verification-status">
+          <span class="status-dot"></span> AUTHENTICATED DROP 01
+        </div>
+        <div id="badge-title" class="status-badge">EXCLUSIVE PROMO SAMPLE</div>
+      </div>
+
+      <!-- PRODUCT SHOWCASE SECTION -->
+      <div class="product-showcase">
+        <div class="img-frame">
+          <img src="%2301-product.img.jpeg" alt="NULL Drop 01 Product" class="product-img" id="product-img" onerror="this.onerror=null; this.src='#01-product.img.jpeg';" />
+          <div class="img-overlay-grid"></div>
+        </div>
+      </div>
+
+      <!-- HIGHLIGHTED SERIAL NUMBER -->
+      <div class="serial-hero-box">
+        <span class="serial-label">SERIAL ALLOCATION</span>
+        <div id="serial-number" class="serial-value">EX #01/10</div>
+      </div>
+
+      <!-- EXPANDED PRODUCT DETAILS GRID -->
+      <div class="details-spec-grid">
+        
+        <div class="spec-card">
+          <div class="spec-label">ITEM DESCRIPTION</div>
+          <div id="item-name" class="spec-value">NULL Drop 01 — Creators Edition</div>
+        </div>
+
+        <div class="spec-card">
+          <div class="spec-label">FABRIC SPECIFICATION</div>
+          <div id="fabric-material" class="spec-value">400 GSM Ultra-Heavy Cotton (Heavyweight Boxy Fit)</div>
+        </div>
+
+        <div class="spec-card">
+          <div class="spec-label">REGISTERED OWNER</div>
+          <div id="owner-name" class="spec-value">Official Brand Ambassador</div>
+        </div>
+
+        <div class="spec-card">
+          <div class="spec-label">OWNERSHIP STATUS</div>
+          <div id="owner-status" class="spec-value">Verified Owner</div>
+        </div>
+
+        <div class="spec-card full-width perk-card">
+          <div class="spec-label">EXCLUSIVITY PERK</div>
+          <div id="owner-perk" class="spec-value highlight-perk">Genesis Promo Gift + Exclusive Status</div>
+        </div>
+
+      </div>
+
+      <!-- ACTION FOOTER -->
+      <div class="action-footer">
+        <a href="https://null.lk" target="_blank" class="primary-store-btn">
+          <span>VISIT OFFICIAL STORE</span>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- FOOTER LEDGER NOTE -->
+    <footer class="ledger-footer">
+      <span>BLOCK #001 &bull; CRYPTOGRAPHICALLY SECURED &bull; NULL SRI LANKA</span>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
