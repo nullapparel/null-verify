@@ -382,7 +382,7 @@ body {
   margin-bottom: 0.4rem;
 }
 
-.serial-value {
+.serial-allocation {
   font-family: var(--font-sync);
   font-size: 2rem;
   font-weight: 700;
@@ -484,5 +484,28 @@ body {
   }
   .certificate-card {
     padding: 2rem 1.2rem;
+  }
+}
+
+/*mobile Responsive Adjustments for Top Navigation*/
+@media(max-width:768px){
+  .top-nav{
+    flex-direction:column !important;
+    align-items: stretch !important;
+    gap: 12px;
+    padding: 15px;
+  }
+
+  .top-nav a,
+  .top-nav button {
+    margin-left:0 !important;
+    width: 100% !important;
+    justify-self: center;
+    box-sizing: border-box;
+  }
+
+  .brand-brandmark{
+    text-align: center;
+    margin-bottom: 5px;
   }
 }
