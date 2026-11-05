@@ -145,12 +145,12 @@ body {
   height: 70px;
   padding: 0 2rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background: rgba(3, 3, 5, 0.85);
   backdrop-filter: blur(15px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   z-index: 1000;
+  gap: 1rem;
 }
 
 .brand-brandmark {
@@ -463,6 +463,16 @@ body {
 
 /* RESPONSIVE BREAKPOINTS */
 @media (max-width: 600px) {
+  .top-nav {
+    padding: 0 1rem;
+    height: auto;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  body {
+    padding-top: 9rem;
+  }
   .details-spec-grid {
     grid-template-columns: 1fr;
   }
