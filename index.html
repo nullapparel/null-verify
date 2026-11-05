@@ -15,7 +15,7 @@
 
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+  <body>
 
   <!-- Audio Source -->
   <audio id="bg-music" src="null-ambient.mp3" loop preload="auto"></audio>
@@ -45,7 +45,12 @@
       <span class="version-tag">VERIFIED LEDGER v1.0</span>
     </div>
 
-    <a href="https://null.lk" target="_blank" class="official-store-btn">
+    <!-- Official Site Link Added Properly inside Nav -->
+    <a href="https://nullapparel.github.io/" class="official-store-btn" style="color: var(--neon-purple); border-color: rgba(157,78,221,0.4); margin-left: 1.5rem; text-decoration: none;">
+      &larr; NULL OFFICIAL
+    </a>
+
+    <a href="https://null.lk" target="_blank" class="official-store-btn" style="margin-left: auto;">
       <span class="pulse-dot"></span>
       OFFICIAL STORE &rarr;
     </a>
@@ -62,7 +67,7 @@
   <!-- MAIN EXPERIENCE CONTAINER -->
   <main class="main-container">
     
-    <!-- Top Identity Branding -->
+    <!-- Top Identity Branding --> 
     <div class="certificate-header">
       <h1 class="null-title">NULL</h1>
       <p class="null-tagline">DEFINED BY NOTHING // URBAN APPAREL CO.</p>
@@ -86,7 +91,7 @@
       <!-- PRODUCT SHOWCASE SECTION -->
       <div class="product-showcase">
         <div class="img-frame">
-          <img src="%2301-product.img.jpeg" alt="NULL Drop 01 Product" class="product-img" id="product-img" onerror="this.onerror=null; this.src='#01-product.img.jpeg';" />
+          <img src="Faceted NULL Streetwear Portrait.png" alt="NULL Drop 01 Product" class="product-img" id="product-img" onerror="this.onerror=null; this.src='#01-product.img.jpeg';" />
           <div class="img-overlay-grid"></div>
         </div>
       </div>
@@ -94,7 +99,7 @@
       <!-- HIGHLIGHTED SERIAL NUMBER -->
       <div class="serial-hero-box">
         <span class="serial-label">SERIAL ALLOCATION</span>
-        <div id="serial-number" class="serial-value">EX #01/10</div>
+        <div class="serial-allocation" id="serial-number">EX #01/10</div>
       </div>
 
       <!-- EXPANDED PRODUCT DETAILS GRID -->
@@ -143,6 +148,7 @@
 
   </main>
 
+  <!-- External Script File -->
   <script src="script.js"></script>
 </body>
 </html>
